@@ -1,2 +1,2 @@
 # PYTHON_PROJECTS
-Everything about python, every exercise ive been through and the project
+Everything about python, every exercises ive been through, and some projects.
