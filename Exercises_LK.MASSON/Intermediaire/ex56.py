@@ -1,3 +1,9 @@
 def filtrerMots(phrase, longueurMini):
-    for i in range(len(phrase)):
-        if 
+    phrase = phrase.split(' ')
+    ret = []
+    for word in phrase:
+        if len(word) >= longueurMini:
+           ret = word
+    print(ret)
+
+filtrerMots("Quel est ton origine", 5)
