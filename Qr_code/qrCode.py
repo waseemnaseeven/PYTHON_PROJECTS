@@ -1,6 +1,5 @@
 import qrcode
 
-# creating the qr
 def generate_qrcode(text):
 
 	qr = qrcode.QRCode(
@@ -13,7 +12,6 @@ def generate_qrcode(text):
 	qr.add_data(text)
 	qr.make(fit=True)
 	img = qr.make_image(fill_color="black", back_color="white")
-	img.save("qrimg.png")
-	
-# adding the url
-generate_qrcode("https://www.youtube.com/")
+	img.save("was_code.png")
+
+generate_qrcode("https://www.instagram.com/lagrandephrase/")
