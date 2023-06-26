@@ -11,7 +11,7 @@ def generate_qrcode(text):
 
 	qr.add_data(text)
 	qr.make(fit=True)
-	img = qr.make_image(fill_color="black", back_color="white")
-	img.save("was_code.png")
+	img = qr.make_image(fill_color="black", back_color="red")
+	img.save("hina_github.png")
 
-generate_qrcode("https://www.instagram.com/lagrandephrase/")
+generate_qrcode("https://github.com/razanamasy")
