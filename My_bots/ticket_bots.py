@@ -18,6 +18,7 @@ def extract_data(data):
 def fullfil_data(file_name):
 	with open(file_name, 'w') as csv_file:
 		writer = csv.writer(csv_file, delimiter=',')
-		writer.writerow(["temps", "fin"])
+		#writer.writerow(["", ""])
 
-fullfil_data("data_csv")
+if __name__ == '__main__':
+    fullfil_data("data.csv")
